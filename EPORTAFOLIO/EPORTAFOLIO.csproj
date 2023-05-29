@@ -173,6 +173,7 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
     <Compile Include="Controllers\PortafolioController.cs" />
+    <Compile Include="Controllers\ProyectoController.cs" />
     <Compile Include="Controllers\ProyectosController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -295,6 +296,11 @@
     <Content Include="Views\Shared\_LayoutCliente.cshtml" />
     <Content Include="Views\Portafolio\Index.cshtml" />
     <Content Include="Views\Shared\_LayoutAdmin.cshtml" />
+    <Content Include="Views\Proyecto\Create.cshtml" />
+    <Content Include="Views\Proyecto\Delete.cshtml" />
+    <Content Include="Views\Proyecto\Details.cshtml" />
+    <Content Include="Views\Proyecto\Edit.cshtml" />
+    <Content Include="Views\Proyecto\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
